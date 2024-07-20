@@ -1,0 +1,77 @@
+header#site-header {
+    background: transparent;
+    position: absolute;
+    border-bottom: 0px;
+    color: #fff;
+}
+
+button#mage_bus_search_button span {
+    display: none !important;
+}
+
+div#site-logo img {
+    width: 200px !important;
+    max-width: 210px !important;
+		margin-top:27px;
+}
+
+ul#menu-header-menu li a {
+    color: #fff !important;
+    margin-top: 50px;
+    font-size: 18px !important;
+    transition: all 0.5s ease;
+}
+
+ul#menu-header-menu li a:hover {
+    color: #e64d51 !important;
+}
+
+section#search-sec {
+    position: absolute;
+    bottom: 140px;
+}
+
+section#her-sec {
+    position: relative;
+}
+
+textarea#field_9jv0r1 {
+    height: 100px;
+    min-height: 90px;
+}
+
+.fixed-header {
+    position: fixed !important;
+    background-color: #fff !important;
+    width: 100% !important;
+    z-index: 99999;
+    top: 0px;
+}
+
+.fixed-header div#site-logo img {
+    width: 100px !important;
+    margin-top: 5px;
+}
+
+.fixed-header ul#menu-header-menu li a {
+    color: #000 !important;
+    font-size: 15px !important;
+    margin-top: 22px;
+}
+
+.wbtm_default_search_listing_page {
+    padding: 250px 170px 180px 170px;
+}
+
+.woocommerce-message a {
+    float: right;
+    min-height: 10%;
+    padding: 6px 18px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #e64d51;
+}
